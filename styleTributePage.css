@@ -1,0 +1,72 @@
+body {
+    background-color: linear-gradient(90deg rgb(53, 47, 47), rgb(143, 143, 143));
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: auto 60%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+
+.header {
+    background-color: rgb(131, 131, 131);
+    grid-area: header;
+}
+
+.photos {
+    background: gray;
+    grid-area: advert;
+}
+
+.item3 {
+    background: azure;
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.fullCard {
+    float: right;
+    background-color: #00acee;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.header-position {
+    display: flex;
+}
+
+header .profile-name {
+    display: flex;
+    padding-right: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header h3, header h4 {
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+    text-align: justify;
+    position: relative;
+}
+
+header .follow-btn {
+    display: flex;
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #eeeeee;
+    color: white;
+    grid-area: footer;
+}
