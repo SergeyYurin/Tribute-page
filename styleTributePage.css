@@ -30,7 +30,7 @@ body {
 }
 
 .item1 {
-    background: rgb(131, 131, 131);
+    background: rgb(167, 167, 167);
     grid-area: header;
 }
 
@@ -47,8 +47,6 @@ body {
 
 .itemOne {
     background: azure;
-    display: grid;
-    grid-template-rows: 60% 40%;
 }
 
 .itemTwo {
