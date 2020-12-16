@@ -34,12 +34,11 @@ body {
 }
 
 #image {
-    width: 35%;
+    max-width: 35%;
     height: auto;
     margin: 20px auto 20px;
-    display: flex;
+    display: block;
     margin: auto;
-    vertical-align: middle;
     text-align: justify;
     position: relative;
     border: 2px solid #eeeeee;
@@ -48,6 +47,15 @@ body {
 }
 
 #img-caption {
+    margin: 20px auto 20px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: Amatic;
+    text-align: center;
+    position: relative;
+}
+
+.positionP {
     margin: 20px auto 20px;
     vertical-align: middle;
     font-size: 30px;
